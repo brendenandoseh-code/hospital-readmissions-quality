@@ -1,0 +1,7 @@
+condition,rows_total,rows_suppressed,pct_suppressed
+Bypass Surgery (CABG),3055,2177,71.3
+Hip/Knee Replacement,3055,1608,52.6
+Heart Attack (AMI),3055,1319,43.2
+COPD,3055,732,24.0
+Heart Failure (HF),3055,434,14.2
+Pneumonia (PN),3055,340,11.1

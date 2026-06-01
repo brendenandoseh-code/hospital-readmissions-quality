@@ -1,0 +1,7 @@
+condition,hospitals_reported,avg_err,hospitals_worse,pct_worse,total_readmissions
+Bypass Surgery (CABG),878,1.0018,438,49.9,7153
+Heart Attack (AMI),1736,1.0018,862,49.7,36231
+Heart Failure (HF),2621,1.0014,1282,48.9,169065
+Hip/Knee Replacement,1447,1.004,693,47.9,4998
+COPD,2323,1.0011,1097,47.2,42934
+Pneumonia (PN),2715,1.0015,1271,46.8,131428

@@ -1,0 +1,4 @@
+# generated artifacts — rebuild with `py build.py`
+readmissions.db
+__pycache__/
+*.pyc
