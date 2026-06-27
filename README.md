@@ -3,6 +3,7 @@
 **Author:** Brenden Andoseh · [LinkedIn](https://www.linkedin.com/in/brenden-andoseh-189484177/)
 **Stack:** SQL (SQLite) · Python (stdlib) · Tableau
 **Data:** [CMS Hospital Readmissions Reduction Program (HRRP), FY2026](https://data.cms.gov/provider-data/dataset/9n3s-kdb3) — real, public, 3,055 hospitals
+**Live dashboard:** [Tableau Public](https://public.tableau.com/app/profile/brenden.andoseh/viz/HospitalReadmissionsQualityCMSHRRPFY2026/HRQdashboard)
 
 > 30-day readmissions are a core hospital **quality and cost** measure. Under Medicare's HRRP, hospitals that readmit more patients than expected for their case-mix are financially penalized. This project takes the official CMS file and answers: **which conditions and which states have the biggest readmission problem, and where should a quality team focus first?**
 
