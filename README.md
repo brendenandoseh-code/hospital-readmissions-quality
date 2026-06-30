@@ -24,7 +24,7 @@ CMS suppresses measures with too few cases ("Too Few to Report" / "N/A"); the pi
 1. **Load** the CSV into SQLite (`build.py`).
 2. **Clean** with a SQL view (`sql/01_create_and_load.sql`) — type-cast numerics, NULL out suppressed values, label conditions, and flag `worse_than_expected`.
 3. **Analyze** with five queries (`sql/02_analysis.sql`) → five Tableau-ready CSVs in `outputs/`.
-4. **Visualize** in Tableau (`tableau/DASHBOARD_GUIDE.md`).
+4. **Visualize** in Tableau Public (live dashboard linked above).
 
 ## Key findings *(real FY2026 figures)*
 
@@ -58,7 +58,7 @@ CMS suppresses measures with too few cases ("Too Few to Report" / "N/A"); the pi
 # data/HRRP_FY2026.csv is the real CMS download (re-fetch anytime):
 #   https://data.cms.gov/provider-data/dataset/9n3s-kdb3  ->  "Download CSV"
 py build.py                 # loads, cleans, runs SQL, writes outputs/
-# then open Tableau and follow tableau/DASHBOARD_GUIDE.md
+# then build the dashboard in Tableau Public
 ```
 
 ## Files
@@ -69,6 +69,5 @@ hospital-readmissions-quality/
 ├─ data/HRRP_FY2026.csv     ← real CMS source data
 ├─ sql/01_create_and_load.sql   ← schema + cleaning view
 ├─ sql/02_analysis.sql          ← 5 analysis queries
-├─ outputs/                 ← Tableau-ready CSVs (generated)
-└─ tableau/DASHBOARD_GUIDE.md   ← step-by-step dashboard build
+└─ outputs/                 ← Tableau-ready CSVs (generated)
 ```
