@@ -1,7 +1,7 @@
 # Hospital Readmissions: A Healthcare Quality Analysis
 
 **Author:** Brenden Andoseh · [LinkedIn](https://www.linkedin.com/in/brenden-andoseh-189484177/)
-**Stack:** SQL (SQLite) · Python (stdlib) · Tableau
+**Stack:** SQL (SQLite **+ BigQuery**) · Python (stdlib) · Tableau — *also runs on BigQuery, see [`bigquery/`](bigquery/)*
 **Data:** [CMS Hospital Readmissions Reduction Program (HRRP), FY2026](https://data.cms.gov/provider-data/dataset/9n3s-kdb3) — real, public, 3,055 hospitals
 **Live dashboard:** [Tableau Public](https://public.tableau.com/app/profile/brenden.andoseh/viz/HospitalReadmissionsQualityCMSHRRPFY2026/HRQdashboard)
 
