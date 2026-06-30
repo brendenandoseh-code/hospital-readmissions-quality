@@ -12,7 +12,7 @@ The SQLite pipeline (`../sql/`) ported to **BigQuery Standard SQL**. Runs on the
    facility_name:STRING,facility_id:STRING,state:STRING,measure_name:STRING,num_discharges:STRING,footnote:STRING,err:STRING,predicted_rate:STRING,expected_rate:STRING,num_readmissions:STRING,start_date:STRING,end_date:STRING
    ```
    (Loading these as STRING lets `SAFE_CAST` clean the suppressed values.) Set "Header rows to skip" = 1 → Create.
-4. New query tab → paste **`analysis.sql`** → Run (creates the `readmissions.readmissions` view and runs the five analyses).
+4. New query tab → paste **`analysis.sql`** → Run (creates the `readmissions.measures` view and runs the five analyses).
 
 ## Option B — Command line (`bq`)
 ```bash
